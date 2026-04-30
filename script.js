@@ -1,3 +1,20 @@
+//configuração Firebase
+
+const firebaseConfig = {
+
+     apiKey: "AIzaSyAsFyvefj6hTUTZJ52jDX9wa_uqWFbeQFk",
+     authDomain: "atividade-b80ae.firebaseapp.com",
+     projectId: "atividade-b80ae",
+     storageBucket: "atividade-b80ae.firebasestorage.app",
+     messagingSenderId: "341377935732",
+     appId: "1:341377935732:web:959b94629a218e304da421",
+     measurementId: "G-EGES8GYVE3"
+};
+
+// Inicializar Firebase
+const app = firebase.initializeApp(firebaseConfig);
+const auth = firebase.auth();
+
 const btn = document.querySelector('button');
 const campoNome = document.getElementById('campo-nome');
 const campoEmail = document.getElementById('campo-email');
