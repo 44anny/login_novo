@@ -145,4 +145,13 @@ body.cadastro {
             margin: 0;
             padding: 0;
         }
-       
+form.cadastroForm{
+background: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+    
+}
