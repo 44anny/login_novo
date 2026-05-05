@@ -56,6 +56,10 @@ body.home{
     background: linear-gradient(120deg,#e8e3ec, #6e1597);
   
 }
+.h3{
+
+   justify-content: center; 
+}
 header {
     padding: 20px;
 }
