@@ -64,9 +64,6 @@ btn.addEventListener('click', () => {
         const email = document.getElementById('email').value.trim();
         const telefone = document.getElementById('telefone').value.trim();
         const cpf = document.getElementById('cpf').value.trim();
-        const cupom = document.getElementById('cupom').value.trim();
-        const produto = document.getElementById('produto').value;
-
         let errorMsg = '';
 
         if (!nome || !email || !telefone || !cpf || !cupom || !produto) {
@@ -91,6 +88,10 @@ btn.addEventListener('click', () => {
 
  document.getElementById('HomeForm').addEventListener('submit', function(e) {
     e.preventDefault(); // Evita envio automático
+
+     const cupom = document.getElementById('cupom').value.trim();
+        const produto = document.getElementById('produto').value;
+
 
      const produto = document.getElementById('produto').value;
  if (errorMsg) {
