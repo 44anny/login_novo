@@ -139,7 +139,7 @@ header {
 
 /*cadastro*/
 
-cadastro {
+body.cadastro {
             font-family: Arial, sans-serif;
             background-color: #fff8e1;
             margin: 0;
