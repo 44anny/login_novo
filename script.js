@@ -87,3 +87,18 @@ btn.addEventListener('click', () => {
         }
     });
 
+//home
+
+ document.getElementById('HomeForm').addEventListener('submit', function(e) {
+    e.preventDefault(); // Evita envio automático
+
+     const produto = document.getElementById('produto').value;
+ if (errorMsg) {
+            document.getElementById('errorMsg').textContent = errorMsg;
+        } else {
+            document.getElementById('errorMsg').textContent = '';
+            alert('Cadastro realizado com sucesso!');
+            // Aqui você enviaria os dados para o servidor via fetch/AJAX
+            // fetch('/cadastrar', { method: 'POST', body: new FormData(this) })
+        }
+    });
